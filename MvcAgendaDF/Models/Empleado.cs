@@ -23,6 +23,7 @@ namespace MvcAgendaDF.Models
     
         public int Id { get; set; }
         public string Nombre { get; set; }
+        [Display(Name = "Fecha de Nacimiento")]
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd/MM/yyyy}")]
         public System.DateTime FechaNacimiento { get; set; }
         public int Departamento_Id { get; set; }

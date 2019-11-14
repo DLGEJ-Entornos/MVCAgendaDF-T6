@@ -17,11 +17,15 @@ namespace MvcAgendaDF.Models
     {
         public int Id { get; set; }
         public string Descripcion { get; set; }
+        [Display(Name = "Fecha de Inicio")]
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd/MM/yyyy}")]
         public System.DateTime FechaInicio { get; set; }
+        [Display(Name = "Fecha de Fin")]
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd/MM/yyyy}")]
         public Nullable<System.DateTime> FechaFin { get; set; }
+        [Display(Name = "Hora de Inicio")]
         public System.TimeSpan HoraInicio { get; set; }
+        [Display(Name = "Hora de Fin")]
         public Nullable<System.TimeSpan> HoraFin { get; set; }
         public int Empleado_Id { get; set; }
     

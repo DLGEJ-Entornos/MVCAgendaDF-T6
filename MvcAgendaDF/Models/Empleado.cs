@@ -11,7 +11,8 @@ namespace MvcAgendaDF.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+
     public partial class Empleado
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -22,6 +23,7 @@ namespace MvcAgendaDF.Models
     
         public int Id { get; set; }
         public string Nombre { get; set; }
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd/MM/yyyy}")]
         public System.DateTime FechaNacimiento { get; set; }
         public int Departamento_Id { get; set; }
     

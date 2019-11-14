@@ -11,12 +11,15 @@ namespace MvcAgendaDF.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+
     public partial class Tarea
     {
         public int Id { get; set; }
         public string Descripcion { get; set; }
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd/MM/yyyy}")]
         public System.DateTime FechaInicio { get; set; }
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd/MM/yyyy}")]
         public Nullable<System.DateTime> FechaFin { get; set; }
         public System.TimeSpan HoraInicio { get; set; }
         public Nullable<System.TimeSpan> HoraFin { get; set; }

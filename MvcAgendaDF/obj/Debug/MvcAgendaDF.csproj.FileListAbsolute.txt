@@ -115,3 +115,5 @@ E:\FP\SERVIDOR\tema6-MVC\Practicas\MvcAgendaDF\MvcAgendaDF\obj\Debug\MvcAgendaDF
 E:\FP\SERVIDOR\tema6-MVC\Practicas\MvcAgendaDF\MvcAgendaDF\obj\Debug\MvcAgendaDF.csproj.CopyComplete
 E:\FP\SERVIDOR\tema6-MVC\Practicas\MvcAgendaDF\MvcAgendaDF\obj\Debug\MvcAgendaDF.dll
 E:\FP\SERVIDOR\tema6-MVC\Practicas\MvcAgendaDF\MvcAgendaDF\obj\Debug\MvcAgendaDF.pdb
+E:\FP\SERVIDOR\tema6-MVC\Practicas\MvcAgendaDF\MvcAgendaDF\bin\JQueryUIHelpers.dll
+E:\FP\SERVIDOR\tema6-MVC\Practicas\MvcAgendaDF\MvcAgendaDF\bin\JQueryUIHelpers.xml

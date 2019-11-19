@@ -16,6 +16,7 @@ namespace MvcAgendaDF.Models
     public partial class Tarea
     {
         public int Id { get; set; }
+        [Display(Name = "Descripción")]
         public string Descripcion { get; set; }
         [Display(Name = "Fecha de Inicio")]
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd/MM/yyyy}")]
